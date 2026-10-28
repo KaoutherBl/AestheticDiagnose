@@ -1,0 +1,31 @@
+# AestheticDiagnose — public repository
+# Allowlist: everything is ignored except the files explicitly listed below.
+# Anything new you drop in this folder stays private until you add it here on purpose.
+
+# 1. Ignore everything at the root
+/*
+
+# 2. Allow the public files
+!/README.md
+!/LICENSE
+!/.gitignore
+
+# 3. Allow the docs folder, but only the published documents
+!/docs/
+/docs/*
+!/docs/AestheticDiagnose-report.pdf
+!/docs/AestheticDiagnose-slides.pdf
+!/docs/architecture.png
+
+# 4. Safety net: never publish these, even if allowed by mistake above
+.env
+.env.*
+credentials*
+*.xlsx
+*.json
+*.jpg
+*.jpeg
+uploads/
+tests/
+*Zone.Identifier
+docker-compose*.yml
