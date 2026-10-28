@@ -4,7 +4,7 @@
 
 Final project, built with the AI-THINK methodology (Tune, Hypothesis, Implement, Network, Knowledge).
 
-📄 [Project report (PDF)](docs/AestheticDiagnose-report.pdf) · 🖥️ [Slides (PDF)](docs/AestheticDiagnose-slides.pdf) · ▶️ \[3-minute demo video](\[VIDEO LINK])
+📄 [Project report (PDF)](docs/AestheticDiagnose_report.pdf) · 🖥️ [Slides (PDF)](docs/AestheticDiagnose_slides.pdf) 
 
 \---
 
