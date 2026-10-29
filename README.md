@@ -2,8 +2,6 @@
 
 **A local, privacy-first AI assistant that drafts aesthetic pre-consultation letters from patient photos and medical files, for the surgeon to review.**
 
-Final project, built with the AI-THINK methodology (Tune, Hypothesis, Implement, Network, Knowledge).
-
 📄 [Project report (PDF)](docs/AestheticDiagnose_report.pdf) · 🖥️ [Slides (PDF)](docs/AestheticDiagnose_slides.pdf) · 🎥 [Video (youtube)](https://youtu.be/4YzhKQSvY5I)
 
 \---
@@ -67,16 +65,6 @@ The four failures fell into fixable categories: cut-off letters (2), an invented
 * **Data minimisation:** only the fields needed for the letter are used; all material in this repository is anonymised.
 * **Honest reporting:** failure cases are documented, not hidden.
 * **Open questions:** how to disclose AI assistance to patients, and making sure a warm tone never downplays medical risks.
-
-## AI-THINK at a glance
-
-|Stage|In this project|
-|-|-|
-|**T**une|The bottleneck is writing the letter, not the medical judgement|
-|**H**ypothesis|Cloud LLM, desktop chat tools, geometric measurements and a local workflow compared; local workflow with surgeon validation selected|
-|**I**mplement|End-to-end MVP running on one PC|
-|**N**etwork|Tested on real historical files; instructor feedback collected|
-|**K**nowledge|Decision: iterate (add a checker and a surgeon pilot), then develop|
 
 ## Repository contents
 
